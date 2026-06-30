@@ -25,7 +25,7 @@ insurance, height, and weight
 
 ## Supported Data Domains 
 
-1. ### Diagnoses & Procedures (ICD-10)
+1. ### [Diagnoses](Small Cell Remediation Project/Diagnoses Output Example.png) & [Procedures](Small Cell Remediation Project/Diagnoses Output Example.png) (ICD-10)
 
     This logic applies to both diagnosis and procedure ICD-10 codes.
 
@@ -53,7 +53,7 @@ insurance, height, and weight
     * Integrate directly into analytic queries
 
 
-2. ### Insurance / Beneficiary Data
+2. ### [Insurance / Beneficiary Data](Small Cell Remediation Project/Coverage Output Example.png)
 
     #### Methodology
 
@@ -104,6 +104,8 @@ UC Davis Health utilizes a mixed implementation approach:
 **Diagnoses, Procedures, and Insurance Data**: Deidentification logic is implemented through reusable database views that are joined to the primary query during dataset construction.
 
 This approach promotes consistency, reusability, and standardized application of privacy protections across projects.
+
+The code was developed using the Epic electronic medical record (EMR) data model. Table and column names have been obfuscated for security and confidentiality. You will need to modify the code to align with your organization's EMR schema and data model.
 
 ### Quality Assurance
 
