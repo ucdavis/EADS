@@ -25,7 +25,7 @@ insurance, height, and weight
 
 ## Supported Data Domains 
 
-1. ### [Diagnoses](https://github.com/ucdavis/EADS/blob/main/Small%20Cell%20Remediation%20Project/Diagnoses%20Output%20Example.png) & [Procedures](https://github.com/ucdavis/EADS/blob/main/Small%20Cell%20Remediation%20Project/Diagnoses%20Output%20Example.png) (ICD-10)
+1. ### [Diagnoses](https://github.com/ucdavis/EADS/blob/main/Small%20Cell%20Remediation%20Project/Diagnoses%20Output%20Example.png) & [Procedures](https://github.com/ucdavis/EADS/blob/main/Small%20Cell%20Remediation%20Project/Procedures%20Output%20Example.png) (ICD-10)
 
     This logic applies to both diagnosis and procedure ICD-10 codes.
 
